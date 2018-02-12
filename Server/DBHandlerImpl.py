@@ -13,10 +13,10 @@ class DBHandlerImpl(DBHandler):
 
     def get_connection(self):
         return psycopg2.connect(
-            database="d8949uhaqoqd28",
-            user="gmultvozsunwxb",
-            password="6b0f18a546857583252b8da92d3dfcbc811de51fc3ace445b3f972e35aba2f7f",
-            host="ec2-54-225-236-102.compute-1.amazonaws.com",
+            database="dbv6rg1957d22o",
+            user="seafjzirwmfqen",
+            password="3ce155ae9f16047147026e121207bb84c1946902b303509c54fe723ac5e9fafa",
+            host="ec2-54-225-199-107.compute-1.amazonaws.com",
             port=5432
         )
 
